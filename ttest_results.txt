@@ -1,0 +1,7 @@
+T-TEST RESULTS
+
+T-test comparing Fair vs Medium
+N(Fair) = 40
+N(Medium) = 10
+T-statistic: -1.3133
+P-value: 0.2076

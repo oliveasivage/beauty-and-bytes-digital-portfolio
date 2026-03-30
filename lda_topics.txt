@@ -1,0 +1,5 @@
+LDA TOPIC MODEL RESULTS
+
+Topic 1: ago, answered, foundation, use, coverage, bad, verified, skin, scent, purchase
+Topic 2: skin, foundation, like, undertones, product, dry, neutral, read, fair, using
+Topic 3: skin, light, undertones, medium, neutral, foundation, coverage, product, love, warm

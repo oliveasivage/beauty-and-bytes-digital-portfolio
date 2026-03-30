@@ -1,0 +1,13 @@
+SEPHORA FOUNDATION REVIEW ANALYSIS
+
+Total cleaned reviews: 379
+
+RATING DESCRIPTIVE STATISTICS
+Mean rating: 3.557
+Median rating: 4.000
+Mode rating: 5.0
+
+REVIEW RECENCY DESCRIPTIVE STATISTICS
+Mean days ago: 8.462
+Median days ago: 6.000
+Mode days ago: 1.0
