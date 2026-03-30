@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sephora Foundation Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #d63384;
+        }
+
+        img {
+            width: 100%;
+            max-width: 700px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>💄 Sephora Foundation Equity Analysis</h1>
+
+<div class="section card">
+<h2>💡 Research Question</h2>
+<p>
+Are Sephora foundation products equally serving customers across different skin tones?
+</p>
+</div>
+
+<div class="section card">
+<h2>🌍 Project Overview</h2>
+<p>
+This project analyzes 379 customer reviews scraped from Sephora’s top foundation products.
+The goal is to evaluate inclusivity and performance across skin tone and skin type using statistical methods.
+The dataset was created by scraping the top 5 most recent reviews on Sephora's bestselling foundations.
+</p>
+</div>
+
+<div class="section card">
+<h2>📊 Overall Ratings</h2>
+<img src="analysis_outputs/histogram_ratings.png">
+<p>
+Mean rating: 3.56 | Median: 4 | Mode: 5  
+Overall sentiment is positive, but some negative experiences exist.
+</p>
+</div>
+
+<div class="section card">
+<h2>🎨 Skin Tone Analysis</h2>
+<img src="analysis_outputs/bar_avg_rating_by_skin_tone.png">
+<img src="analysis_outputs/boxplot_rating_by_skin_tone.png">
+<p>
+ANOVA shows no statistically significant difference across skin tones (p = 0.3678).
+Sephora performs consistently across tones.
+</p>
+</div>
+
+<div class="section card">
+<h2>🧴 Skin Type Analysis</h2>
+<img src="analysis_outputs/bar_avg_rating_by_skin_type.png">
+<img src="analysis_outputs/boxplot_rating_by_skin_type.png">
+<p>
+Significant differences exist across skin types (p = 0.0095).
+Product performance varies depending on skin condition.
+</p>
+</div>
+
+<div class="section card">
+<h2>💬 Sentiment Analysis</h2>
+<img src="analysis_outputs/bar_sentiment_distribution.png">
+<img src="analysis_outputs/line_sentiment_by_skin_tone.png">
+<img src="analysis_outputs/line_sentiment_by_skin_type.png">
+<p>
+Most reviews are positive, but negative sentiment is concentrated in specific groups.
+</p>
+</div>
+
+<div class="section card">
+<h2>🧠 Text Insights</h2>
+<img src="analysis_outputs/bar_common_words_overall.png">
+<p>
+Customers frequently mention undertones, coverage, and skin compatibility.
+</p>
+</div>
+
+<div class="section card">
+<h2>🔍 Topic Modeling</h2>
+<img src="analysis_outputs/lda_topic_1.png">
+<img src="analysis_outputs/lda_topic_2.png">
+<img src="analysis_outputs/lda_topic_3.png">
+<p>
+Three key themes emerged: product performance, skin compatibility, and shade matching.
+</p>
+</div>
+
+<div class="section card">
+<h2>⏱️ Review Recency</h2>
+<img src="analysis_outputs/histogram_days_ago.png">
+<p>
+Reviews are recent (median = 6 days), making findings highly relevant.
+</p>
+</div>
+
+<div class="section card">
+<h2>💬 What Customers Are Saying</h2>
+
+<p>
+Beyond ratings, customer reviews reveal important patterns in how products are actually experienced.
+Across all skin tones, customers frequently mention shade matching, undertones, and coverage, which suggests that Sephora’s shade range is a key strength.
+</p>
+
+<p>
+However, many negative reviews focus on performance issues such as dryness, separation, and texture. These concerns appear more often among certain skin types, especially dry and sensitive skin, which aligns with the statistical findings showing significant differences across skin types.
+</p>
+
+<p>
+Positive reviews often highlight lightweight feel, blendability, and natural finish, while negative reviews tend to describe issues with wear time, oxidation, or how the product interacts with skin texture.
+</p>
+
+<p>
+This suggests that while customers are generally able to find suitable shades, the formula itself may not perform equally well for all skin conditions.
+</p>
+</div>
+
+<div class="section card">
+<h2>📌 Final Conclusion</h2>
+
+<p>
+This analysis finds no statistically significant differences in customer satisfaction across skin tones, suggesting that Sephora foundation products are performing consistently in terms of shade inclusivity.
+</p>
+
+<p>
+However, both statistical testing and review text analysis indicate that customer experience varies significantly across skin types. While many users report positive experiences, others frequently describe issues related to texture, wear, and product performance.
+</p>
+
+<p>
+These findings suggest that Sephora has been successful in addressing shade diversity, but there is an opportunity to improve formulation performance across different skin conditions.
+</p>
+
+<p>
+Overall, this project demonstrates how combining quantitative analysis with customer review data can provide a more complete understanding of product performance and highlight opportunities for improvement.
+</p>
+</div>
